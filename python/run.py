@@ -107,7 +107,7 @@ class WebUI(object):
         """
         signal.signal(signal.SIGINT, signal.SIG_IGN)
 
-        yolov8 = Yolov8Seg(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../resources/cutoff_yolov8s-seg_qcs8550_w8a16.qnn236.ctx.bin"), 640, 640, 1)
+        yolov8 = Yolov8Seg(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../resources/cutoff_yolov8s-seg_iq9_w8a16.qnn236.ctx.bin"), 640, 640, 1)
         sam2 = SAM2(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../resources/sam2unet_large_fix_w8a16.qnn231.ctx.bin"))
 
         while True:
