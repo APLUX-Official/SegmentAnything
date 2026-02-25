@@ -295,7 +295,7 @@ class WebUI(object):
                 self.input_queue.put((None, None)) 
             except:
                 pass
-        
+
         if hasattr(self, 'cap') and self.cap.isOpened():
             self.cap.release()
 
