@@ -35,7 +35,7 @@ pip3 install -r requirements.txt
 ```
 ### 3. Get Model File
 To use this project, please download the two model files and place them into the **resources** directory.  
-[Download](https://huggingface.co/dev2hf/robohub_example13)  
+[Download](https://huggingface.co/ApluxZone/SegmentAnything/tree/main)  
 
 ### 4. Get QNN Resource
 To use this project, you need the Qualcomm QNN SDK v2.36.0.250627.
