@@ -1,6 +1,6 @@
 # SegmentAnything
 
-robohub example 13.
+Leverages the NPU capability of the IQ-9075 to implement robotic inspection for packaging box defects in warehouse scenarios.
 
 ## Features
 - **User-Friendly Pythonic API**: A high-level Python interface that abstracts complex QNN C++ examples, allowing for rapid prototyping on Snapdragon platforms.

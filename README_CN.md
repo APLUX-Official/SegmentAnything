@@ -1,6 +1,6 @@
 # SegmentAnything
 
-robohub 示例 13.
+使用IQ-9075的NPU功能，在仓库场景中实现包装箱缺陷的机器人检测。
 
 ## 功能特性
 - **用户友好的 Python API**：高级 Python 接口，抽象了复杂的 QNN C++ 示例，允许在骁龙（Snapdragon）平台上快速原型开发。
